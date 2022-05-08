@@ -2,61 +2,50 @@
     background-color: black;
 }
 
-
-#wrapper {
-    margin: 0 auto;
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-#daftpunk {
-    width: 100%;
-    height: auto;    
-    padding-bottom: 50px;
+.container {
+    height: 1250px;
+    background-image: url("https://media.pitchfork.com/photos/6033c6098b8835d37316a598/2:1/w_2560%2Cc_limit/Daft-Punk.jpg");
+    overflow-x: hidden;
 }
 
 h1 { 
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
 }
 
+h1.about, .disco {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    position: relative;
+    left: 330px;
+}
 
 .title {
     color: white;
-    position: absolute;
-    top: 100px;
+    position: relative;
+    top: 220px;
     left: 180px;
     font-size: 64px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: transparent; 
 }
 
-
 .title2 {
     color: white;
-    position: absolute;
+    position: relative;
     top: 200px;
     left: 215px;
     font-size: 45px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: transparent; 
 }
-
-.title3 {
-    position: relative;
-    top: 100px;
-    left: 300px;
-    font-size: 45px;
-    display: inline;
-
-}
-
-.about {
-    position: relative;
-    top: 10px;
-    left: 300px;
-    font-size: 40px;
-    display: inline;
-}
-
 
 figcaption {
     color: white;
@@ -67,59 +56,41 @@ figcaption {
 }
 
 hr {
+    position: relative;
+    left: 1px;
     width: 1820px;
-    position: absolute;
-    left: 308px;
+    margin-bottom: 150px;
 }
-
-
-#hr1 {
-    position: absolute;
-    top: 340px;
-    width: 1820px;
-    left: 310px;
-    top: 1715px;
-}
-
 
 p {
+    position: relative;
+    left: 340px;
     color: white;
     width: 1820px;
-    position: absolute;
-    left: 310px;
     font-size: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
-
-.container2 {
-    width: 1860px;
-}
-
-.image-container {
-    position: relative;
-    top: 470px;
-    display: inline-block;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
 
 .album {
     height: 250px;
     width: 250px;
+    vertical-align: top;
 }
 
-
-
-#fig1 {
+.image-container {
+    display: inline-block;
     position: relative;
-    right: 37px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    left: 235px;
+    white-space: nowrap;
 }
 
-
-#fig2 {
-    position: relative;
-    right: 100px;
+figcaption {
+    padding-top: 30px;
 }
 
 footer {
